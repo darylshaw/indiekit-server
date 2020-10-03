@@ -16,6 +16,14 @@ const github = new GithubStore({
   token: process.env.GITHUB_TOKEN
 });
 
+const syndicationTargets = [{
+  uid: 'https://twitter.com/daryl_shaw',
+  name: 'Daryl Shaw on Twitter'
+}, {
+  uid: 'https://micro.blog/darylshaw',
+  name: 'Daryl Shaw on Micro.blog'
+}];
+
 // Override preset post type
 indiekit.set('publication.postTypes', [{
   type: 'article',
