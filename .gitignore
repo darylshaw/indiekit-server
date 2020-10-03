@@ -1,0 +1,8 @@
+# ignore all files starting with .
+.*
+
+# track these files, if they exist
+!.gitignore
+
+# ignore these folders
+node_modules

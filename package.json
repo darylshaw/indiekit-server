@@ -1,0 +1,36 @@
+{
+  "name": "indiekit-server",
+  "version": "1.0.0",
+  "description": "Indiekit server for my personal website",
+  "main": "indiekit.config.js",
+  "type": "module",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "@indiekit/indiekit": "0.1.0-alpha.9",
+    "@indiekit/preset-jekyll": "0.1.0-alpha.6",
+    "@indiekit/store-github": "0.1.0-alpha.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darylshaw/indiekit-server.git"
+  },
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": {
+    "name": "Daryl Shaw",
+    "url": "https://darylshaw.co.uk"
+    },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darylshaw/indiekit-server/issues"
+  },
+  "homepage": "http://indiekit.darylshaw.co.uk"
+}
