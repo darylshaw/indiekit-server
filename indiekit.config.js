@@ -39,7 +39,7 @@ indiekit.set('publication.postTypes', [{
   type: 'note',
   name: 'Note',
   post: {
-    path: '_notes/{yyyy}-{MM}-{dd}-slug.md',
+    path: '_notes/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'notes/{slug}'
   }
 }]);
