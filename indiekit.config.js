@@ -45,10 +45,12 @@ indiekit.set('publication.postTypes', [{
 }]);
 
 // Configure publication
+indiekit.set('publication.locale', 'en-GB');
 indiekit.set('publication.me', 'https://darylshaw.co.uk');
 indiekit.set('publication.preset', jekyll);
 indiekit.set('publication.store', github);
 indiekit.set('publication.syndicationTargets', syndicationTargets);
+indiekit.set('publication.timeZone', 'Europe/London');
 
 // Create a server
 const server = indiekit.server();
