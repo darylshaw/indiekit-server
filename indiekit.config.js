@@ -42,6 +42,16 @@ indiekit.set('publication.postTypes', [{
     path: '_notes/{yyyy}-{MM}-{dd}-{slug}.md',
     url: 'notes/{slug}'
   }
+}, {
+  type: 'photo',
+  name: 'Photo',
+  post: {
+    path: '_photos/{yyyy}-{MM}-{dd}-{slug}.md',
+    url: 'photos/{slug}'
+  },
+  media: {
+    path: 'asseets/uploads/photos/{yyyy}/{filename}'
+  }
 }]);
 
 // Configure publication
