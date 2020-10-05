@@ -50,7 +50,7 @@ indiekit.set('publication.postTypes', [{
     url: 'photos/{slug}'
   },
   media: {
-    path: 'asseets/uploads/photos/{yyyy}/{filename}'
+    path: 'assets/uploads/photos/{yyyy}/{filename}'
   }
 }]);
 
