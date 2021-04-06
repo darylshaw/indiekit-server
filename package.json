@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@indiekit/indiekit": "0.1.0",
-    "@indiekit/preset-jekyll": "0.1.0-alpha.6",
+    "@indiekit/preset-jekyll": "0.1.0",
     "@indiekit/store-github": "0.1.0-alpha.6"
   },
   "devDependencies": {},
